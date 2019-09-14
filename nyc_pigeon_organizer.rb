@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
       all_names.each do |name|
         if !pigeon_list.has_key?(name) #if it doesnt have a string inside name.... ! = not btw
           pigeon_list[name] = {}
-  return pigeon_list
+        end
+  end
 end
 end
-end
+
+return pigeon_list
