@@ -12,9 +12,10 @@ def nyc_pigeon_organizer(data)
         end
         if !pigeon_list[name][attributes].include?(inside_value)
           pigeon_list[name][attributes] << inside_value.to_s # use << to add key, and turn into a string
-
+        end
 end
 end
 end
 
-return pigeon_list
+return pigeon_list]
+end
