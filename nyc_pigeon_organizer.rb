@@ -7,7 +7,13 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has_key?(name) #if it doesnt have a string inside name.... ! = not btw
           pigeon_list[name] = {}
         end
-  end
+        if !pigeon_list[name].has_key?(attributes) #if it doesnt have a string inside attributes....
+          pigeon_list[name][attributes] = []
+        end
+        if !pigeon_list[name][attributes].include?(inside_value)
+          pigeon_list[name][attributes] << inside_value.to_s # use << to add key, and turn into a string
+
+end
 end
 end
 
