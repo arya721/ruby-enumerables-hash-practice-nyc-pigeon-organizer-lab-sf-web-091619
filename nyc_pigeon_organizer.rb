@@ -17,5 +17,5 @@ end
 end
 end
 
-return pigeon_list]
+return pigeon_list
 end
